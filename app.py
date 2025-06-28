@@ -9,7 +9,7 @@ import ast
 @st.cache_data
 def load_data():
     movies = pd.read_csv('clean_metadata.csv')
-    ratings = pd.read_csv('ratings_trimmed_3000users.csv')
+    ratings = pd.read_csv('ratings_3000users.csv')
     credits = pd.read_csv('trimmed_credits.csv')
     keywords = pd.read_csv('clean_keywords.csv')
 
